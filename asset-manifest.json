@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/educase/static/css/main.05e7a17c.css",
+    "main.js": "/educase/static/js/main.bea74ce6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/educase/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/educase/index.html",
+    "main.05e7a17c.css.map": "/educase/static/css/main.05e7a17c.css.map",
+    "main.bea74ce6.js.map": "/educase/static/js/main.bea74ce6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/educase/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05e7a17c.css",
+    "static/js/main.bea74ce6.js"
+  ]
+}
