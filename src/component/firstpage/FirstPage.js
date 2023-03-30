@@ -1,7 +1,5 @@
 import "./firstpage.css"
 import React from 'react'
-import CreateAccount from "../creatAccount/CreateAccount"
-import { Button } from "@mui/material"
 import { Link } from "react-router-dom"
 
 

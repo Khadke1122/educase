@@ -1,7 +1,6 @@
 import "./createAccount.css"
 import React from 'react'
 import Form from 'react-bootstrap/Form';
-import LastPage from "./lastPage/LastPage";
 
 import InputText from "./InputText";
 import { Link } from "react-router-dom";

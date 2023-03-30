@@ -1,13 +1,10 @@
-import { BadgeRoot, Paper } from '@mui/material'
+import {  Paper } from '@mui/material'
 import React from 'react'
 import CreateAccount from './component/creatAccount/CreateAccount'
-import InputText from './component/creatAccount/InputText'
 import LastPage from './component/creatAccount/lastPage/LastPage'
 import FirstPage from './component/firstpage/FirstPage'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AreadyRegister from './component/creatAccount/alreadyregister/AreadyRegister'
-
-
 
 
 
@@ -20,7 +17,7 @@ const App = () => {
    <Paper elevation={20}>
     <div className='bigContainer'>
    <BrowserRouter>
-   {/* <FirstPage /> */}
+  
    <Routes>
     <Route path="/" element={<FirstPage />}></Route>
     <Route path="/CreateAccount" element={<CreateAccount />}></Route>
