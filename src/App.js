@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { BadgeRoot, Paper } from '@mui/material'
+import React from 'react'
+import CreateAccount from './component/creatAccount/CreateAccount'
+import InputText from './component/creatAccount/InputText'
+import LastPage from './component/creatAccount/lastPage/LastPage'
+import FirstPage from './component/firstpage/FirstPage'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AreadyRegister from './component/creatAccount/alreadyregister/AreadyRegister'
 
-function App() {
+
+
+
+
+// import FirstPage from './component/firstpage/FirstPage'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+  
+   <Paper elevation={20}>
+    <div className='bigContainer'>
+   <BrowserRouter>
+   {/* <FirstPage /> */}
+   <Routes>
+    <Route path="/" element={<FirstPage />}></Route>
+    <Route path="/CreateAccount" element={<CreateAccount />}></Route>
+    <Route path='/LastPage' element={<LastPage />}></Route>
+    <Route path="/AreadyRegister" element={<AreadyRegister />}></Route>
+   </Routes>
+   </BrowserRouter>
+  
+  
+
     </div>
-  );
+    </Paper>
+   
+   
+  )
 }
 
-export default App;
+export default App

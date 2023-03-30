@@ -1,0 +1,36 @@
+.container{
+    height: 700px;
+    margin-left: 20px;
+    background-color: rgb(230, 223, 240);
+    margin-left: 2px;
+}
+
+.abcd{
+    height: 450px;
+    margin-left: 20px;
+}
+.btnflex{
+    display: flex;
+    column-gap: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.btnone{
+    width: 300px;
+    height: 40px;
+    color: aliceblue;
+    font-size: larger;
+    border-radius: 10px;
+
+    background-color: rgb(78, 78, 231);
+}
+.btntwo{
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+    margin-top: 10px;
+
+    background-color: rgb(176, 176, 182);
+}

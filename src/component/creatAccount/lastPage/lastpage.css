@@ -1,0 +1,31 @@
+.dp{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(230, 223, 240);
+    font-weight: 700;
+}
+.up{
+    height: 50px;
+    margin-top: 30px;
+    font-weight: 900;
+    margin-left: 20px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+    padding: 1px;
+}
+.bottomdiv{
+    height: 400px;
+}
+.lorem{
+    background-color: rgb(230, 223, 240);
+}
+.bottomdiv{
+    background-color: rgb(230, 223, 240);
+}
